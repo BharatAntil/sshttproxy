@@ -1,5 +1,5 @@
 # sshttproxy: a connect-on-demand SSH HTTP Proxy
-<small>(You have my permission to pronounce it _sh*t proxy_, if you wish)</small>
+<small>(You have my permission to pronounce it _sh*t proxy_, if you wish more shit than ever in your life)</small>
 
 sshttproxy parses the Host header of incoming HTTP requests, works out which remote host and port they are destined for, creates an SSH tunnel to that host and forwards the request. For example, requests for <tt>http://example.com.8080.localhost</tt> will get forwarded to port 8080 on <tt>example.com</tt>.
 
